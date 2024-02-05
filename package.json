@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "format": "prettier --write ./src",
     "prepare": "husky install",
-    "precommit": "lint-staged"
+    "pc": "yarn lint --fix && yarn format"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
